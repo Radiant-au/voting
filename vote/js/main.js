@@ -97,8 +97,9 @@ async function showCandidates(gender) {
                     }
                 }
     
-                attachRowEventListeners();
+                
             }
+            attachRowEventListeners();
             
         } catch (error) {
             console.error('Error:', error);
